@@ -1,7 +1,7 @@
 //only change things here
 const token = '<Bot Token>';//your discord bot token
 const serverip ='<serverip>';//server ip e.g Play.ThatGuyJack.co.uk
-const serverport = '25565';//Set to default port currently change this if yours differs
+const serverport = 25565;//Set to default port currently change this if yours differs
 const serverimage = '<serverimage>';//image for the embeded .status command
 const serverurl = '<website address>';//Your web sites address 
 const servername = '<Server Name>';//Your server name
