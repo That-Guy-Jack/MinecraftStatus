@@ -1,10 +1,13 @@
 //only change things here
-const token = '<Bot Token>';//your discord bot token
-const serverip ='<serverip>';//server ip e.g Play.ThatGuyJack.co.uk
+const token = '<discordtoken>';//your discord bot token
+const serverip ='<serverIP>';//server ip e.g Play.ThatGuyJack.co.uk
 const serverport = 25565;//Set to default port currently change this if yours differs
-const serverimage = '<serverimage>';//image for the embeded .status command
-const serverurl = '<website address>';//Your web sites address 
+const serverimage = '<image or gif>';//image for the embeded .status command
+const serverurl = '<website';//Your web sites address 
 const servername = '<Server Name>';//Your server name
+const serveredition = 'Java and Bedrock';
+const serverver = '1.16.5';//put the server verstion here 
+
 
 //don't edit below unless you know what you are doing
 
@@ -46,7 +49,7 @@ function status(message){
 				.setURL(serverurl)
 				.setThumbnail(serverimage)
 				.addField(`Players Online`,`${response.onlinePlayers}`+ "/" + `${response.maxPlayers}`)
-				.addField(`Server Version: Java editon`, `${response.version}`)
+				.addField(`Server Version: ${serveredition}`, `${serverver}`)
 				.addField('Players:',`${response.players}`)
 				.setColor(`${randomItem}`)
 				.setTimestamp()
