@@ -5,7 +5,7 @@ const serverport = 25565;//Set to default port currently change this if yours di
 const serverimage = '<image or gif>';//image for the embeded .status command
 const serverurl = '<website';//Your web sites address 
 const servername = '<Server Name>';//Your server name
-const serveredition = 'Java and Bedrock';
+const serveredition = 'Java and Bedrock';//put server edition here
 const serverver = '1.16.5';//put the server verstion here 
 
 
