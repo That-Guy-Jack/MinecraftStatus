@@ -46,7 +46,7 @@ function status(message){
 				.setURL(serverurl)
 				.setThumbnail(serverimage)
 				.addField(`Players Online`,`${response.onlinePlayers}`+ "/" + `${response.maxPlayers}`)
-				.addField(`${response.version}`)
+				.addField(`Server Version: Java editon`, `${response.version}`)
 				.addField('Players:',`${response.players}`)
 				.setColor(`${randomItem}`)
 				.setTimestamp()
