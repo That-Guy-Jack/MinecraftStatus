@@ -1,5 +1,8 @@
 # MinecraftStatus
-Full turtorial at https://www.thatguyjack.co.uk/host-your-own-minecraft-discord-status-bot/
+Current issue with some server IPs currently trying to fix it 
+
+
+just edit the Status.js with your correct details and run with node js 
 
 :>
 
